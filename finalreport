@@ -1,0 +1,109 @@
+Using Data Analytics to Improve Retail Sales Strategies
+
+Github Repo: https://github.com/dhwannni/dmfdsproject
+
+Project Definition: How can a store increase its sales by leveraging insights from its customer data? Our project collects data from data sets consisting of consumer transactions, analyzes the data such as what consumers buy and the dates to find trends, and provides a company with recommendations on enhancing its sales. These recommendations can include: times of the year a company should market a certain product to increase sales, identifying best-selling products and recommend focusing marketing efforts on these items, dynamic pricing based on demand, preparing more/less inventory based on the time of the year, etc.
+
+What Problem are We Solving? What Strategic Aspects are Involved?
+In this project, we will provide a company with recommendations to enhance its sales performance by analyzing datasets of its customer transactions. This analysis will help identify key factors that influence their customer’s purchasing behavior, thus enabling the store to: tailor its marketing strategies, identify which products are outperforming or underperforming, and improve customer engagement which would otherwise be difficult. Our data analysis will help the company make informed decisions to improve its overall sales and business growth.
+Strategic Aspects:
+Data-driven Decision Making
+Analyzing data and using data management tools to make decisions that would benefit the company.  
+
+Exploratory Data Analysis (EDA)
+In order to understand data and data features better, we use data visualization tools such as bar graphs and charting. 
+Ensuring data is free of duplicated, missing, and null values. 
+Eliminating any extraneous noise that can reduce the accuracy of our conclusions. 
+
+Predictive Modeling 
+Developing predictive models to theorize and forecast. 
+Utilize machine learning to predict consumer behavior, sales trends, and product demand. 
+
+Utilizing Techniques in Data Science
+Ensuring we choose the best technique for the goal we are trying to achieve. 
+Classification to sort our data into specific groups and categories in order to analyze it better
+Regression in order to find a relationship between data points that seem unrelated to each other. 
+Clustering to group closely related data together to look for patterns and anomalies. 
+
+Big data management 
+We are collecting data in huge volumes that grows exponentially with time. We must utilize the 5 V’s of big data when analyzing the data: volume, value, variety, velocity. Veracity. 
+
+Quantitative Data
+Quantitative data provides a numerical foundation for analysis and decision making, it represents quantities and observations. 
+We will utilize discrete data which are countable, distinct values. 
+
+Qualitative data 
+Qualitative data refers to non-numerical information that classifies elements into distinct groups. 
+We will utilize nominal data, there is no inherent ranking in the data we analyze, we will classify the data based on attributes. 
+We will also utilize ordinal data by classifying our data in a ranking, making it have a meaningful order. By doing so, we can categorize certain products in a ranking of popularity or importance to provide the company with better recommendations. 
+
+Structured Data
+We will pull data from our datasets in order to transform it into a well-defined data model. We will have tables with rows and columns. 
+
+Predictive analysis
+We use the patterns we see in the data to make accurate forecasts about the patterns that may occur in the future. 
+Prescriptive analysis
+In addition to using predictive analysis, we will also use prescriptive analysis to suggest an optimum response to receive that outcome. 
+
+Techniques in Data Science
+Classification -We will sort the data from the data sets into specific groups or categories to analyze the information better, leading to a more accurate analysis.  
+Clustering -We will group data we think is closely related to one another to look for patterns. Ex: Bathing suit sales rise during the months leading up to the summer and in the summer. We can group seasons/months and products together and analyze them to see if we find a pattern.
+
+Why is the Project Important? Why are We Excited About it?
+Our project is important because analyzing consumer data from a store will uncover patterns and trends relating to their products and customer’s spending habits which can help inform strategic decisions aimed at boosting the store's sales. 
+We are excited about this project because we are able to apply what we learn in class to the analysis we will make. This is something companies do often, and we are able to gain some real-world knowledge. 
+
+What Are Some Existing Issues in Current Data Management Practices? Any Prior Related Works?
+A store can collect data from both in-store and online purchases, but this data is often formatted differently due to the use of incompatible systems. Though, through using techniques like data integration, the data can be seamlessly combined and consolidated into one place for easy analysis.  
+Every major company and store engages in this type of data analysis in one way or another. Techniques such as customer segmentation, exploratory data analysis (EDA), and predictive modeling, are effective in gaining valuable insights into a store’s customer base which  helps in optimizing their sales strategies.
+
+Types of Data Used & How We Got it:
+We used customer transaction data which included information such as customer and product details, product rating, and purchase amounts. This data is crucial for analyzing purchasing behavior and achieving the objectives of our project.
+
+Models/Techniques/Algorithms We Used or Develop:
+We intend to leverage a variety of techniques in our project, including customer segmentation, exploratory data analysis (EDA), predictive modeling, and more. Customer segmentation will be beneficial in categorizing customers based on common attributes, which can be useful in making targeted marketing strategies for a personalized customer experience. Through exploratory data analysis we will get statistical summaries of the store's data, enabling us to visualize patterns and trends in consumer behavior and product success. Predictive models will allow us to anticipate which products should be promoted at specific times to consumers, thereby enhancing the likelihood of successful sales which maximizes revenue.
+
+Experiments we designed:
+Popularity of Product Colors in Each Seasons
+//picture
+This experiment was designed to test which color of products was most and least popular each season. The most popular colors were turquoise and yellow in the Fall. The most popular color in the Spring was Olive. In the Summer, the most popular color was Silver. In the winter, the most popular color was Green. 
+
+Clothing Products Vs. Customer Age Groups
+//picture
+This experiment was designed to test which clothing product is most and least popular in each age group. Blouses, hoodies, and pants are most popular among ages 36-45. Dresses are equally as popular between the age groups of 46-55 and 56-65. Jeans, shirts, skirts, socks, and t-shirts are most popular among age groups 26-35. Shorts are equally as popular between age groups 26-35 and 46-55. Sweaters are most popular among the age groups 46-55.
+
+Sum of purchase amounts in each product category through each season
+//picture
+This experiment is designed to see sales in each category of products throughout the seasons. With this, we are able to analyze which season each product category has most success in and find a solution as to why sales may be dropping in other seasons. We are able to see clothing has the most success in the Winter (with sales dropping in the Summer), accessories have the most success in the Summer (with sales dropping in the Spring), footwear has the most success in the Spring, and outerwear has the most success in the Fall. 
+
+Key Findings and Results From Our Project: 
+The key findings of our analysis:
+Seasonal Product Success Based on Color:
+The first graph allows us to recommend increasing production of specific product colors based on their seasonal success. By using our data, we can do some predictive modeling and forecast which colors will be most popular in the following year to provide the company with a detailed summary report. This approach helps optimize their inventory levels on each color variation of a product and meet customer demand more effectively.
+
+Customer Grouping for Improved Marketing Strategies:
+The second graph enables us to offer data-driven marketing solutions by identifying which products are most successful within different age groups. By segmenting customers into age groups, personalized marketing efforts can be enhanced. For example, customers within a specific age group, say 18-25, can receive targeted promo codes, sales offers, and product recommendations for the products that are most popular in their age group (sweaters). This subsequently leads to an increase in customer engagement and sales.
+
+Product Performance Analysis Over the Year:
+The third graph reveals consistent sales trends for footwear and outerwear across all seasons. Though, outerwear has the lowest overall sales among all product categories. Based on this, we can recommend the company either reduce or discontinue outerwear production to cut costs. Conversely, accessories maintain steady sales throughout the year except in spring, and clothing has the highest sales overall but experiences a drop in sales during the summer. With this insight, the company can adjust their production schedules to increase the specified product output during peak seasons, and reduce it otherwise. This optimizes their resources and maximizes their profitability without having too much stock of any product leftover at the end of a season.
+
+How These Findings Verified Our Original Hypothesis: 
+Our hypothesis was customer behavior changes based on their age and time of year, customers find different objects of clothing appealing during different seasons. Our hypothesis was verified using our analysis of customer transaction data. In graph one, we see that different seasons are correlated to different colors' popularity. Knowing this, we give the company an educated insight into bettering their marketing and product development; they may increase their production of certain colors during different seasons, and market products of a certain color accordingly. In graph two, we are given different clothing products and their popularity among different aged consumers. Recognizing this allows the company to better market and create their products to certain demographics; different marketing campaigns aid the company in better reaching target demographics, and creating products that are better suited to the demographic that certain clothing items are most popular among aids in increased sales and customer satisfaction. In graph three, we are shown the popularity of accessories, clothing, footwear, and outerwear during different seasons. This information allows companies to create certain products during different seasons, aiding in better sales. 
+
+How We Evaluated Our Method:
+The hypothesis was customer behavior changes based on the time of year and their age, and our goal was to aid a company in enhancing their sales and marketing approach by analyzing customer transactions throughout different seasons. We found a dataset of customer transactions and used that information to conduct our experiment. We used pycharm with pandas and matplot to aid in creating graphs. We created three graphs to analyze our data, bar graphs showing the popularity of different colors during the four seasons, bar graphs showing the popularity of different clothing items among different age groups, and a line chart showing the popularity of different clothing groups during all four seasons. 
+
+Advantages and Limitations of Our Approach:
+Advantages 
+We used a diverse dataset that includes data on colors, clothing items, age groups, and seasons to provide a comprehensive view of trends and preferences.
+The bar graphs showing the popularity of different colors during the four seasons offer clear insights, allowing for better understanding and prediction of seasonal trends.
+The bar graphs showing the popularity of different clothing items among different age groups help in understanding demographic preferences, which is important for targeted marketing and product management.
+Limitations
+The dataset may not adequately represent all age groups or cultural backgrounds, the results might be biased towards certain demographics.
+Fashion trends can change rapidly, meaning continuous updates and real-time data analysis may be necessary.
+
+Changes We Made For Our Final Report
+We changed the dataset we used because our previous dataset lacked the necessary attributes for our analysis. By switching to a new dataset focused on clothing and accessories, we were able to narrow the scope of our project and concentrate on a more specific and definitive idea. This allowed us to create graphs that were focused on more specific issues within the retail company and use our analysis to provide recommendations so that they can maximize their profitability and product success through techniques like personalized marketing strategies targeted at their customers.
+
+
+
